@@ -19,4 +19,4 @@ printf("應付薪資為:%.2f\n",pay);
 
 system ("pause");
 return 0;
-
+}
