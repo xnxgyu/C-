@@ -3,7 +3,7 @@
 
 int main (void) 
 {
-int num,1 num2;
+int num1, num2;
 
 printf ("輸入兩個整數以計算乘積:\n");
 scanf ("%d %d",&num1, &num2);
