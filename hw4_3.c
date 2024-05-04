@@ -3,7 +3,7 @@
 
 int main (void) 
 {
-printf ("\"Hello, C \"\n \"Hello, World\"\n");
+printf ("\"Hello, C \"\n\"Hello, World\"\n");
 
 system("pause");
 return 0;
