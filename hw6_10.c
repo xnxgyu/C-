@@ -6,7 +6,7 @@ int main(void)
 float x, y;
 
 printf("分別輸入x 及 y 座標 (x,y):");
-scanf("%f, %f, &x,&y);
+scanf("%f, %f", &x,&y);
 
 if (x > 0 && y > 0)
 printf("第一象限。\n");
@@ -15,7 +15,7 @@ else if (x < 0 && y > 0)
 printf("第二象限。\n");
 
 else if (x < 0 && y < 0)
-printf("第三象限。"\n");
+printf("第三象限。\n");
 
 else if (x > 0 && y < 0)
 printf("第四象限。\n");
