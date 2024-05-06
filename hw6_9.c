@@ -3,12 +3,12 @@
 
 int main (void) 
 {
-int score i = 0, a = 0, b = 0, c = 0;
+int score, i = 0, a = 0, b = 0, c = 0;
 
 start:
 i++;
 printf("輸入學生成績 (%02d/10):",i);
-scanf("%d,&score);
+scanf("%d",&score);
 
 if(score > 75)
 a++;
