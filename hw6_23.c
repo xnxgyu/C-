@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 
-int main (void)
+int main(void)
 {
 char ch;
 
 printf("請輸入一個字元 a (A) 或 b (B):");
 ch = getche();
-prtchar('\n');
+putchar('\n');
 
 switch(ch)
 {
