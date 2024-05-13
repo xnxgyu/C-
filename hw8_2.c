@@ -9,7 +9,7 @@ int main(void)
 
 int k;
 
-printf("輸入一個整數 ");
+printf("輸入一個整數: ");
 scanf("%d", &k);
 
 kitty(k);
