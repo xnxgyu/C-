@@ -6,13 +6,13 @@ int main(void)
 double x;
 int n;
 printf("輸入底數與次方:");
-scanf("%1f,%d",&x,&n);
+scanf("%lf,%d",&x,&n);
 
-printf("%1f 的 %d 次方 = 1%f \n",x, n,power(x,n);
+printf("%lf 的 %d 次方 = 1%f \n",x, n,power(x,n));
 
 system("pause");
 return 0;
-
+}
 double power(double base,int n)
 {
 int i;
