@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define SQUARE(n) n * n
+#define SQUARE n * n
 int main(void)
 {
-    double n;
+    int n;
     printf("輸入數值");
-    scanf("%lf",&n);
+    scanf("%d",&n);
     
-    printf("%2lf * %2lf = %2lf \n", n, n, SQUARE(n));
+    printf("%d * %d = %d \n", n, n, SQUARE);
     
     system("pause");
     return 0;
