@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define SIZE 25
+
+void toLower(char []);
+
+int main(void)
+{
+    char userstr[SIZE];
+    
+    printf("輸入: ");
+    
+    gets(charstr);
+    toLower(userstr);
+    
+    printf("換成小寫字母:\n");
+    puts(userstr);
+    
+    system("pause");
+    return 0;
+    
+}
+
+void toLower(char str[])
+{
+    int i = 0;
+    
+    while(str[i] != '\0')
+    {
+        if(str[i] >= 65 && str[i] <= 90)
+            str[i] += 32;
+        i++;
+    }
+    
+}
