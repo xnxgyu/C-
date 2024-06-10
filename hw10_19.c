@@ -20,7 +20,7 @@ int length(char *ptr)
 {
     int i;
     
-    for(i-0; *(ptr + i) != '\0'; i++);
+    for(i=0; *(ptr + i) != '\0'; i++);
         
         return i;
 }
